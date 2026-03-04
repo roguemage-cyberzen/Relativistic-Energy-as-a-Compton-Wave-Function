@@ -19,3 +19,24 @@ The project is built on the premise that mass is not a static scalar, but a dyna
   revealing how the internal "clock" blue-shifts as velocity approaches $c$.
 * Dynamic Dispersion Control: Unlike standard non-relativistic packets, this model ensures group velocity ($v_g$)
   correctly approaches the speed of light without exceeding it.  
+
+## 📂 Project Structure
+* `/docs`: The full whitepaper: Relativistic Energy as a Compton Wave Function.
+* `/src`: Python scripts utilizing `mpmath` and `numpy` for high-precision relativistic wave simulations.
+* `/simulations`: Pre-rendered visualizations of Lorentz contraction and phase shifts.
+
+## 🚀 Getting Started
+1. **Dependencies:** Ensure you have the core physics stack installed.
+
+```bash
+pip install mpmath numpy matplotlib scipy
+```
+
+2. **Run the Simulation:**
+   Execute the main wave packet script to observe the "Compton Clock" in action.
+```bash
+python3 relativistic_wave_packet.py
+```
+## 🛰 Future Research: The Zeta-Mass Connection
+This repository serves as the physical "hardware" for the **A Physical Model for the Riemann Hypothesis** project. Future iterations involve substituting the static rest mass ($m_0$) with a discrete spectrum derived from the imaginary parts of the non-trivial zeros of the **Riemann Zeta function $\zeta(s)$**.
+
